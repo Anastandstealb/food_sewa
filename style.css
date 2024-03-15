@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+    --main-font: "Inter"
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid red;
+}
+/* start of upper section */
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 100%;
+    justify-content: space-between;
+}
+nav a{
+    font-size: 18px;
+}
+#user{
+    
+}
+nav .left-upper{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgb(222, 124, 124);
+    background-color: gray;
+    width: 500px;
+}
+.left-upper a{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px 10px;
+    /* font-size: 1.4rem; */
+}
+nav .mid-upper{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgb(54, 54, 57);
+    background-color: black;
+    width: 350px;
+    
+}
+.middle-upper .logo-img img{
+
+}
+nav .right-upper{
+    display: flex;
+    background-color: gray;
+    flex-direction: row;
+    border: 2px solid rgb(123, 216, 123);
+    width: 500px;
+}
+.right-upper a{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px 10px;
+    /* font-size: 1.4rem; */
+}
+
+
+
+
+/* end of upper section */
